@@ -1,0 +1,15 @@
+/* make images fit with the post */
+p > img {
+    max-width: 100%;
+}
+
+/* make the post wider 
+.content {
+    min-width: 70%;
+} */
+
+/* support scrolling for code blocks */
+pre { 
+    white-space: pre; 
+    overflow: auto; 
+}
