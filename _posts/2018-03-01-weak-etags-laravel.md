@@ -1,12 +1,15 @@
 ---
 layout: post
 title: Weak Etags Middleware in Laravel 5
+excerpt_separator: <!--more-->
 ---
 
 ## Intro
 When building REST APIs you may find yourself hitting some endpoint(s) frequently to check if the resource at that endpoint has changed or not.  
 In such cases you might consider saving bandwidth, and that can be achieved by using etags.  
 In this blog post I’m going to first explain etags and how to use them, then will explain the reason behind the need to write a weak etag middleware for Laravel 5.
+
+<!--more-->
 
 ## What is etag
 As the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) say it:
