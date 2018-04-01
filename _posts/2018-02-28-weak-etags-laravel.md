@@ -99,11 +99,3 @@ Hope this helps, since this problem occurred for many apps working behind nginx 
 [https://stackoverflow.com/questions/39365856/nginx-http-caching-with-etags](https://stackoverflow.com/questions/39365856/nginx-http-caching-with-etags)  
 [https://stackoverflow.com/questions/18693718/weak-etags-in-rails](https://stackoverflow.com/questions/18693718/weak-etags-in-rails)   
 [https://masa331.github.io/2016/01/06/roda-etag-caching-gotcha.html](https://masa331.github.io/2016/01/06/roda-etag-caching-gotcha.html)  
-
-### Another workaround in nginx configuration files
-The following stackoverflow answers say that this can be solved in nginx configuration files  
-[https://stackoverflow.com/questions/43397480/caching-with-rails-app-and-chrome-browser/43601615#43601615](https://stackoverflow.com/questions/43397480/caching-with-rails-app-and-chrome-browser/43601615#43601615)  
-[https://stackoverflow.com/questions/33415865/getting-no-304-response-in-chrome-safari-but-via-curl/33419418#33419418](https://stackoverflow.com/questions/33415865/getting-no-304-response-in-chrome-safari-but-via-curl/33419418#33419418)  
-I haven't this soltuion though, but you might find it worth trying.
-
-
