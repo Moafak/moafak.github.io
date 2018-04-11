@@ -27,14 +27,14 @@ The following html is the output of the script running on cloned [TypiCMS](https
 
 My initial intention was to visualize the output with D3.js, but pandas [DataFrame](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html) makes it easy to write an html output of the DataFrame you built. So that’s what I ended up doing in the script for now.  
 
-The script is well documented, and should be easy to modify.  
-https://github.com/moafak/MSR/blob/22d7a1019280b215e4e32378160007179d20281a/gitplayground.py#L1
+[The script](https://github.com/moafak/MSR/blob/22d7a1019280b215e4e32378160007179d20281a/gitplayground.py#L1) is well documented, and should be easy to modify.  
 
 The python libraries used are:  
 * [GitPython](https://github.com/gitpython-developers/GitPython) to interact with git  
 * [Pandas](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)  for dataframes  
 
-
+In later posts we are going to visualize the output in a better way, to make it easier to go through the project history and the changes.  
+  
 Thanks for reading.  
 Cheers.  
 
